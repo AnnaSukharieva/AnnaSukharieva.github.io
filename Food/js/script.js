@@ -1,3 +1,5 @@
+require('es6-promise').polyfill();
+
 import calc from './modules/calc';
 import cards from './modules/cards';
 import slider from './modules/slider';
